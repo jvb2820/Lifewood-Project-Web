@@ -1,0 +1,20 @@
+/* AppBar.css */
+
+/* Set the AppBar color to green */
+.appbar {
+    background-color: #4caf50; /* Green background */
+  }
+  
+  /* Add hover effect only to the menu buttons */
+  .hover-effect:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Optional: Style the buttons to have no background by default */
+  button.MuiButton-root {
+    background-color: transparent;
+    border: none;
+  }
+  

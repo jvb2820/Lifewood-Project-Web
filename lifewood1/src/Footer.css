@@ -1,0 +1,11 @@
+/* Footer.css */
+
+/* Footer style if additional customization is needed */
+footer {
+    background-color: #388E3C; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  

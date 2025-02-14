@@ -1,0 +1,31 @@
+/* CSS for the transforming text animation */
+.transforming-text {
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+  }
+  
+  .transforming-text h2 {
+    color: #388E3C;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .transforming-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
