@@ -52,17 +52,18 @@ const Services = () => {
 
   // List of random responses from the bot
   const randomResponses = [
-    "I'm here to help! Can you tell me more about your query?",
-    "That's interesting! Could you elaborate?",
-    "I'm not sure about that. Could you ask something else?",
-    "Let's dive deeper into that topic. What else can I assist with?",
-    "I don't have an answer to that, but feel free to ask anything else!",
-    "Could you clarify that for me? I'm a little confused.",
-    "Hmm, that's a great question! Let me think about it...",
-    "Could you ask in a different way? I'm struggling to understand.",
-    "Thanks for sharing that! How can I help you further?",
-    "That's a good point! I'm here to assist with any questions you have."
-  ];
+    "Hi there! How's your day going?",
+    "Hello! How can I assist you today?",
+    "Hey! Hope you're doing well!",
+    "Good day! What can I do for you?",
+    "Hi! What brings you here today?",
+    "Hello! Nice to see you!",
+    "Hey there! How can I help?",
+    "Greetings! How’s everything going?",
+    "Hi! Let me know if you need anything!",
+    "Hello! I'm here to chat or assist!"
+];
+
 
   const handleCardClick = (index) => {
     setFlippedCards((prev) => ({
@@ -142,7 +143,7 @@ const Services = () => {
                 wordWrap: "break-word",
               }}
             >
-              Bot: {msg.bot}
+              Eva: {msg.bot}
             </div>
           )}
         </div>
